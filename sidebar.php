@@ -1,4 +1,7 @@
 <div class="sidebar">
+
+<h3>Website visitors: <?php echo $nr_vizite?></h3>
+
 <h3>Latest News</h3>
         <?php
         $interogare = "SELECT titlu_stire, continut, data FROM stiri";

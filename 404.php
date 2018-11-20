@@ -1,0 +1,1 @@
+<h1>MyCustomError 404</h1>

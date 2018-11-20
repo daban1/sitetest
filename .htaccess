@@ -1,0 +1,14 @@
+RewriteEngine on
+#ErrorDocument 404 http://localhost/sitetest/404.php
+
+#Redirect /sitetest/contact/ http://localhost/sitetest/contact-us/
+
+#order allow,deny 
+#allow from 188.26.121.154
+
+#RewriteCondition %{HTTP_REFFERAL} swissacademy\.eu
+
+RewriteRule ^([0-9]+)$ index.php?id=$1
+
+
+
